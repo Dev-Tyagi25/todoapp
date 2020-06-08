@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-  width: 40%;
+  width: 50%;
   height: 70%;
   margin: 40px auto;
   padding: 20px;
@@ -16,5 +16,11 @@ body {
 
 h2 {
   text-align: center;
+}
+
+@media(max-width: 586px) {
+  .main {
+    width: 90%;
+  }
 }
 
