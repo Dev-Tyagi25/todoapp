@@ -1,0 +1,9 @@
+.todoItem p{
+    display: inline-block;
+}
+
+.completed {
+    text-decoration: line-through;
+    font-style: italic;
+    font-weight: 100;
+}
